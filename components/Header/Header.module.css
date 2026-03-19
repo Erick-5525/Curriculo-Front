@@ -1,0 +1,52 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(2, 6, 23, 0.9);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #1e293b;
+}
+
+.nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.nav a {
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #38bdf8;
+  text-decoration: none;
+  border: 1px solid transparent;
+  
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Hover apenas em dispositivos com mouse */
+@media (hover: hover) and (pointer: fine) {
+  .nav a:hover {
+    background-color: #020617;
+    border-color: #38bdf8;
+    color: #f8fafc;
+    transform: translateY(-2px);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 640px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}

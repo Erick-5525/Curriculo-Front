@@ -1,0 +1,36 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 480px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #94a3b8;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.link {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #38bdf8;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

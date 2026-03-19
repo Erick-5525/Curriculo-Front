@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.group h3 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  color: #f8fafc;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
