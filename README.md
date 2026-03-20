@@ -9,8 +9,8 @@ Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, p
 
 ## 🌐 Acesso Online
 
-- 🔗 **Portfólio (Deploy):** *(adicione aqui)*
-- 📁 **Repositório:** *(adicione aqui)*
+- 🔗 **Portfólio (Deploy):** *(https://curriculofrontbarreiro.netlify.app/)*
+- 📁 **Repositório:** *(https://github.com/Erick-5525/Curriculo-Front)*
 
 ---
 
